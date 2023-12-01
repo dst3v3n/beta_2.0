@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'empresa.apps.EmpresaConfig',
     'perfil_user.apps.PerfilUserConfig',
     'rest_framework',
-    'coreapi'
+    'coreapi',
+    'corsheader'
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -58,6 +59,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleare'
 ]
 
 ROOT_URLCONF = 'HumanTalentSena.urls'
