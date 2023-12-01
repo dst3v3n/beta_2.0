@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'perfil_user.apps.PerfilUserConfig',
     'rest_framework',
     'coreapi',
-    'corsheader'
+    'corsheaders'
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
