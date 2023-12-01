@@ -149,3 +149,11 @@ APPEND_SLASH = False
 REST_FRAMEWORK ={
     'DEFAULT_SCHEMA_CLASS':'rest_framework.schemas.coreapi.AutoSchema'
 }
+CORS_ALLOW_ALL_ORIGINS= True
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOWED_ORIGINS=[
+    'htpp://localhost:8000',
+]
+CORS_ALLOWED_ORIGINS_REGEXES=[
+    'htpp://localhost:8000',
+]
