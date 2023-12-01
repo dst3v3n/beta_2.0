@@ -4,3 +4,4 @@ crispy-bootstrap5
 bcrypt
 coreapi
 djangorestframework
+django-cors-headers
